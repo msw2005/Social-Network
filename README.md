@@ -18,7 +18,7 @@ Basic profile management
 Getting Started
 Prerequisites
 
-Python 3.x installed on your system
+Python 3.9 x installed on your system
 
 Required Python packages (to be installed with pip)
 
