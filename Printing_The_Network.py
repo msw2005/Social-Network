@@ -10,6 +10,7 @@ class PrintableSocialNetwork(SocialNetwork):
     _printer: Printer
     _data: SocialNetwork
 
+    
 
 
     def display_network(self):
@@ -74,4 +75,5 @@ class PrintableSocialNetwork(SocialNetwork):
         :param user_name: name of the user to output.
         :return: None.
         """
+
         self._printer.display_user_relationship(self._data, user_name)
