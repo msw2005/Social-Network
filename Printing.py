@@ -3,7 +3,7 @@ from The_Network import SocialNetwork
 
 class Printer:
     """
-    Displays the social network.
+    Displays the social network
     """
     def display_network(self, data: SocialNetwork):
         """
@@ -62,4 +62,5 @@ class Printer:
         :param data: list of users and their friends.
         :return: None.
         """
+
         pass
