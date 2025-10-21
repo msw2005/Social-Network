@@ -10,6 +10,7 @@ User registration and authentication
 
 Posting and sharing updates
 
+
 Connecting with other users (friendship/follow system)
 
 Basic profile management
