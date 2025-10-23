@@ -8,6 +8,7 @@ This is a simple social networking application built in Python. The repository c
 Features
 User registration and authentication
 
+
 Posting and sharing updates
 
 
