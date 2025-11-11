@@ -8,7 +8,7 @@ import sys
 
 class Runner:
     """
-    Runs the program.
+    Runs the program.d
     """
 
     _loader: Loader
@@ -167,4 +167,5 @@ class Runner:
         Asks the user if they want to try another social network.
         :return: None.
         """
+
         Runner(self._loader, self._printer).run_program(input("Enter a file name for network data: "))
