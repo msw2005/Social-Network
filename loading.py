@@ -3,7 +3,7 @@ from The_Network import SocialNetwork
 
 class Loader:
     """
-    Opens and reads a .txt file of social network of users.
+    Opens and reads a .txt file of social network of users.xx
     """
 
     def load_network(self, location: str) -> SocialNetwork:
@@ -28,4 +28,5 @@ class Loader:
                         raise ValueError("Social network line does not have one or two elements: " + line)
                 i += 1
         sn.validate()
+
         return sn
