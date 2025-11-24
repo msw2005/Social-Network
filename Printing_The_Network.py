@@ -5,7 +5,7 @@ from typing import Optional
 
 class PrintableSocialNetwork(SocialNetwork):
     """
-    Prints the social network to the console.b
+    Prints the social network to the console.bx
     """
     _printer: Printer
     _data: SocialNetwork
@@ -77,4 +77,5 @@ class PrintableSocialNetwork(SocialNetwork):
         """
 
         self._printer.display_user_relationship(self._data, user_name)
+
 
