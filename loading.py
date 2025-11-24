@@ -8,7 +8,7 @@ class Loader:
 
     def load_network(self, location: str) -> SocialNetwork:
         """
-        Opens the data file, reads the users and returns the social network.
+        Opens the data file, reads the users and returns the social network
 
         """
         sn: SocialNetwork = SocialNetwork()
@@ -30,3 +30,4 @@ class Loader:
         sn.validate()
 
         return sn
+
