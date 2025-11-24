@@ -5,7 +5,7 @@ from Printing import Printer
 
 class ConsolePrinter(Printer):
     """
-    Displays the social network on the Python console.
+z
     """
 
 
@@ -95,4 +95,5 @@ class ConsolePrinter(Printer):
         str_zero: str = ", ".join(sorted(zero_friends))
         str_one: str = ", ".join(sorted(one_friend))
         print(f"The user name with least friends is: {str_one}")
+
         print(f"The user name with zero friends is: {str_zero}")
