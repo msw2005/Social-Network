@@ -18,7 +18,7 @@ class Runner:
         """
         Initialises the Loader and Printer instances to run the program.
         :param loader: Loader instance to load the social network.
-        :param printer: Printer instance to output the network.
+        :param printer: Printer instance to output the networkx
         """
         self._loader = loader
         self._printer = printer
@@ -169,3 +169,4 @@ class Runner:
         """
 
         Runner(self._loader, self._printer).run_program(input("Enter a file name for network data: "))
+
