@@ -1,6 +1,6 @@
 class User:
     """
-    Encapsulation of a user with the names of its friends.x
+    Encapsulation of a user with the names of its friends.x`
     """
     name: str
     friend_names: list[str]
@@ -15,9 +15,10 @@ class User:
 
     def add_friend(self, friend_name: str):
         """
-        Adds a name to the list of friend names.
+        Adds a name to the list of friend names;
         :param friend_name: name of the friend to add.
         :return: None
         """
 
         self.friend_names += [friend_name]
+
