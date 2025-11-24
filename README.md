@@ -2,7 +2,7 @@
 
 
 About
-This is a simple social networking application built in Python. The repository currently contains the core source code for the project. It aims to provide basic social networking functionalities, potentially allowing users to create profiles, connect with others, and share updates (assuming future developments or current functionality as per the source)\
+This is a simple social networking application built in Python. The repository currently contains the core source code for the project. It aims to provide basic social networking functionalities, potentially allowing users to create profiles, connect with others, and share updates (assuming future developments or current functionality as per the source)\x
 
 
 Features
