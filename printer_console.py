@@ -5,7 +5,7 @@ from Printing import Printer
 
 class ConsolePrinter(Printer):
     """
-z
+zx
     """
 
 
@@ -97,3 +97,4 @@ z
         print(f"The user name with least friends is: {str_one}")
 
         print(f"The user name with zero friends is: {str_zero}")
+
