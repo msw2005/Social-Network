@@ -1,6 +1,6 @@
 class User:
     """
-    Encapsulation of a user with the names of its friends.x`
+    Encapsulation of a user with the names of its friendsx`
     """
     name: str
     friend_names: list[str]
@@ -21,4 +21,5 @@ class User:
         """
 
         self.friend_names += [friend_name]
+
 
