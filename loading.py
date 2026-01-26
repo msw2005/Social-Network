@@ -3,7 +3,7 @@ from The_Network import SocialNetwork
 
 class Loader:
     """
-    Opens and reads a .txt file of social network of users.xx
+    Opens and reads a .txt file of social network of users.x
     """
 
     def load_network(self, location: str) -> SocialNetwork:
@@ -30,4 +30,5 @@ class Loader:
         sn.validate()
 
         return sn
+
 
