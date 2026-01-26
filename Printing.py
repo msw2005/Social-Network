@@ -3,7 +3,7 @@ from The_Network import SocialNetwork
 
 class Printer:
     """
-    Displays the social networkd
+    Displays the social network
     """
     def display_network(self, data: SocialNetwork):
         """
@@ -64,4 +64,5 @@ class Printer:
         """
 
         pass
+
 
