@@ -4,7 +4,7 @@ from Member import User
 
 class InconsistentException(Exception):
     """
-    Exception raised if social network is inconsistent.s.a
+    Exception raised if social network is inconsistent.s.
     """
     def __init__(self, friend, user):
         Exception.__init__(self, f"Inconsistent social network. User '{friend}' is friend with user '{user}' but the "
@@ -199,4 +199,5 @@ class SocialNetwork:
                 else:
 
                     raise InconsistentException(friend, user)
+
 
