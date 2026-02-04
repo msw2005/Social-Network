@@ -14,7 +14,7 @@ class TestUser(TestCase):
         user.add_friend("Amir")
         self.assertIn("Amir", user.friend_names, "Wrong friend!")
 
-
+#faa
 class TestSocialNetwork(TestCase):
     def test_init(self):
         network: SocialNetwork = SocialNetwork()
