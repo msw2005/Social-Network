@@ -5,7 +5,7 @@ from Printing import Printer
 
 class ConsolePrinter(Printer):
     """
-zx
+zyx
     """
 
 
