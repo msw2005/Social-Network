@@ -15,7 +15,7 @@ a
 Connecting with other users (friendship/follow system)
 
 Basic profile management
-
+\
 (Note: As the repository has no detailed description, features listed are typical social networking functions and may need to be updated based on actual code.)
 
 Getting Started
