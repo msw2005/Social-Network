@@ -10,6 +10,7 @@ zyx
 
 
     def display_common_friends(self, data: SocialNetwork):
+        # SocialNetwork is a library
         """
         Pretty prints the number of common friends per pair of users.
         :param data: list of users and number of common friends with each of the other users to output.
