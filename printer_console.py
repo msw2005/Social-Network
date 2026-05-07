@@ -27,6 +27,7 @@ zyx
         :param data: list of users and their friends.
         :param user_name: name of the user seeking a new friend.
         :return: None.
+        nn
         """
         recommended: str = data.recommend_friend(user_name)
         print(f"The recommended friend for {user_name} is {recommended}")
