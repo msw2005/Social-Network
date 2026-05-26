@@ -15,7 +15,7 @@ l
         """
         Pretty prints the number of common friends per pair of users.
         :param data: list of users and number of common friends with each of the other users to output.
-        :return: None.
+        :return: None.,
         """
         all_common_friends: dict[(str, str), int] = data.common_friends
         common_friends_matrix: dict[str, list[int]] = data.generate_common_friends(all_common_friends)
@@ -27,7 +27,7 @@ l
         Prints the friend recommendation for a given user.
         :param data: list of users and their friends.
         :param user_name: name of the user seeking a new friend.
-        :return: None.
+        :return: None.,.,
         nn
         """
         recommended: str = data.recommend_friend(user_name)
@@ -35,7 +35,7 @@ l
 
     def display_network(self, data: SocialNetwork):
         """
-        Pretty prints the social network on the Python terminal.
+        Pretty prints the social network on the Python terminal..
 
         """
         all_users: dict[str, User] = data.users
@@ -53,6 +53,7 @@ l
         :param data: list of users and their friends.
         :param user_name: name of the user to output its number of friends.
         :return:
+        op
         """
         u: User = data.users[user_name]
         print(f"{user_name} has {len(u.friend_names)} friends")
