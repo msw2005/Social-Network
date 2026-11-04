@@ -4,7 +4,7 @@ from Member import User
 
 class InconsistentException(Exception):
     """
-    Exception raised
+    Exception raised here
     """
     def __init__(self, friend, user):
         Exception.__init__(self, f"Inconsistent social network. User '{friend}' is friend with user '{user}' but the "
