@@ -2,7 +2,7 @@ from unittest import TestCase
 from Member import User
 from The_Network import SocialNetwork
 
-
+#class test
 class TestUser(TestCase):
     def test_init(self):
         user: User = User("Adam")
